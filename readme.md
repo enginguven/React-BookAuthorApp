@@ -1,53 +1,15 @@
-npm install
-npm start
 
-server host:
+## React Book-Author App
 
-http://localhost:3001/author
-authors=[
-{
-"author_id": 1,
-"first_name": "Basarat",
-"last_name": "Ali"
-},
-{
-"author_id": 2,
-"first_name": "Mike",
-"last_name": "Cantelon"
-},
-{
-"author_id": 3,
-"first_name": "Marc",
-"last_name": "Harter"
-}
-]
+This project also has a simple add-delete application written in React. <br/>
+It uses https://github.com/enginguven/NodeJs-BookAuthorExpressMongooseApp as a server. ([this project repository](https://github.com/enginguven/NodeJs-BookAuthorExpressMongooseApp))<br/>
+Make sure the NodeJS application is running before running this project.
 
-http://localhost:3001/books
+**Books Page:**
+*This page has the details of the books and a button for deletion.*
 
-books=[
-{
-"isbn": 1,
-"book_title": "Beginning Node.js",
-"publish_date": "2018-04-23"
-},
-{
-"isbn": 2,
-"book_title": "Node.js in Action",
-"publish_date": "2019-05-12"
-}
-]
+![Book Pages](https://raw.githubusercontent.com/enginguven/React-BookAuthorApp/master/public/react-books.PNG)
 
-booksauthors=[
-{
-"isbn": 1,
-"author_id": 1
-},
-{
-"isbn": 2,
-"author_id": 2
-},
-{
-"isbn": 2,
-"author_id": 3
-}
-]
+**Book Create Page:**
+
+![Book Create Page ](https://raw.githubusercontent.com/enginguven/React-BookAuthorApp/master/public/reactbookcreate.PNG)
