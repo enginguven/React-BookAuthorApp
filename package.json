@@ -12,7 +12,7 @@
   "keywords": [],
   "author": "Engin Güven",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "joi-browser": "^13.4.0",
     "prop-types": "^15.7.2",
